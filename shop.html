@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instaprint.3D - Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0f172a, #1e3a8a); /* tech blue */
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px;
+      background: #f97316; /* orange header */
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .shop {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .item {
+      background: white;
+      color: black;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    .item h3 {
+      margin: 0 0 10px;
+      color: #1e3a8a; /* dark blue for text */
+    }
+
+    .price {
+      font-size: 1.2rem;
+      color: #f97316; /* orange price */
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #f97316;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #fb923c;
+    }
+  </style>
+</head>
+<body>
+  <header>Shop</header>
+  <div class="shop">
+    <div class="item">
+      <h3>3D</h3>
+      <p class="price">$1.00</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="item">
+      <h3>3D</h3>
+      <p class="price">$1.00</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="item">
+      <h3>3D</h3>
+      <p class="price">$1.00</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="item">
+      <h3>3D</h3>
+      <p class="price">$1.00</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+  </div>
+  <a href="index.html" class="btn">← Back to Home</a>
+</body>
+</html>
