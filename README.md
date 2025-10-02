@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Instaprint</title>
+  <title>Instaprint.3D</title>
   <style>
     body {
       margin: 0;
@@ -24,10 +24,11 @@
       color: #f97316; /* bright orange */
     }
 
-    p {
-      font-size: 1.3rem;
+    h2 {
+      font-size: 1.5rem;
       margin-top: 10px;
-      color: #93c5fd; /* light blue */
+      color: #f97316; /* orange subtitle */
+      font-weight: normal;
     }
 
     .buttons {
@@ -59,14 +60,14 @@
   </style>
 </head>
 <body>
-  <h1>Instaprint</h1>
-  <p>Fast, modern printing in blue + orange style</p>
+  <h1>Instaprint.3D</h1>
+  <h2>Family friendly 3D prints</h2>
   <div class="buttons">
     <button class="btn">Get Started</button>
     <button class="btn">Learn More</button>
   </div>
   <footer>
-    © 2025 Instaprint — All rights reserved.
+    © 2025 Instaprint.3D — All rights reserved.
   </footer>
 </body>
 </html>
